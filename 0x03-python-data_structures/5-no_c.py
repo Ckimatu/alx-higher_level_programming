@@ -3,5 +3,8 @@
 # a function that removes all characters c and C from a string.
 
 def no_c(my_string):
-    newString = my_string.translate({ord(i): None for i in 'cC'})
+    newString = ''
+    for i in my_string:
+        if i != 'c' and i != 'C':
+            newString += i
     return newString
