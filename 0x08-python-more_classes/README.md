@@ -14,3 +14,5 @@ Projects on Python - More Classes and Objects
 * https://python-course.eu/oop/class-instance-attributes.php
 * https://python-course.eu/oop/object-oriented-programming.php
 * https://python.swaroopch.com/oop.html
+* https://en.wikipedia.org/wiki/Queen_%28chess%29
+* https://en.wikipedia.org/wiki/Backtracking
