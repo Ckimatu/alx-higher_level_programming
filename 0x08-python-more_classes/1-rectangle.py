@@ -4,6 +4,7 @@
 
 class Rectangle:
     """defines a rectangle"""
+
     def __init__(self, width=0, height=0):
         """initialiation of width and height"""
         self.width = width
@@ -16,7 +17,7 @@ class Rectangle:
 
     @height.setter
     def height(self, value):
-        """to set width with new value"""
+        """to set height with new value"""
         if type(value) is not int:
             raise TypeError("height must be an integer")
         if value < 0:
