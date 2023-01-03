@@ -10,8 +10,8 @@ class Rectangle:
 
     def __init__(self, width=0, height=0):
         """initialiation of width and height"""
-        self.width = width
-        self.height = height
+        self.__width = width
+        self.__height = height
 
     def area(self):
         """public instance method that  returns the rectangle area"""
@@ -67,8 +67,7 @@ class Rectangle:
 
     def __repr__(self):
         """return representation of the rectangle"""
-        if self.__width == 0 or self.__height == 0:
-            return ("")
+        if self.width != 0 and self.height != 0:
+            return f"Rectangle({self.width}, {self.height})"
         else:
-            return "Rectangle(" + str(self.__width) + ", "\
-                + str(self.__height) +")"
+            return ""
