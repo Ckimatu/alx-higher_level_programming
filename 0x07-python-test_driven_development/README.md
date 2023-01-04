@@ -2,7 +2,7 @@
 
 Projects on Python test-driven development
 
-*Resources*
+**Resources**
 * https://docs.python.org/3.4/library/doctest.html
 * https://pymotw.com/3/doctest/
 * https://www.youtube.com/watch?v=1Lfv5tUGsn8
