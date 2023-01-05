@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 
 """This is the matrix_divided module
 It supplies one function, matrix_divided(matrix, div)
