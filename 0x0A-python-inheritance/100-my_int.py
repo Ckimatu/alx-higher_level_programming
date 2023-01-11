@@ -2,8 +2,9 @@
 
 """this module inverts comparison operators"""
 
+
 class MyInt(int):
-    """creates a personalised int"""
+    """creates a personialised int"""
 
     def __init__(self, num):
         """initializes the class"""
