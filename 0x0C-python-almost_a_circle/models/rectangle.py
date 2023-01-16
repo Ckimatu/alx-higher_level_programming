@@ -28,7 +28,7 @@ class Rectangle(Base):
     @property
     def x(self):
         """get x value"""
-            return self.__x
+        return self.__x
     
     @property
     def y(self):
