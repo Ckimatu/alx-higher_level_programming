@@ -29,7 +29,7 @@ class Rectangle(Base):
     def x(self):
         """get x value"""
         return self.__x
-    
+
     @property
     def y(self):
         """get y value"""

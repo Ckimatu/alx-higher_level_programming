@@ -157,7 +157,8 @@ class Base:
 
     @classmethod
     def load_from_file(cls):
-        """returns a list of instances from the json file depending on the cls"""
+        """returns a list of instances from the json file
+        depending on the cls"""
         if cls.__name__ == 'Rectangle':
             file_name = 'Rectangle.json'
         elif cls.__name__ == 'Square':
